@@ -1,4 +1,4 @@
-### Scripts to generate validating inputs for the FSMs
+### Scripts to generate validating inputs for the FSMs, based on all-transition pair coverage
 
 1. For a given FSM:
     * `paths.py` - generates the shortest paths from the starting state to each state in the FSM.
