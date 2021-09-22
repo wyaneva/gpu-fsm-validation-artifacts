@@ -1,4 +1,4 @@
-# GPU Acceleration of FSM Test Execution: Artifacts
+# GPU Acceleration of FSM Input Execution: Artifacts
 
 This repository contains artifacts for our research on using GPUs to accelerate FSM input execution for FSM model validation. 
 
