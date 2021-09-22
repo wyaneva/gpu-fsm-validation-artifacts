@@ -1,0 +1,49 @@
+SANITY CHECK!
+FSM_INPUTS_WITH_OFFSETS = 0
+FSM_INPUTS_COAL_CHAR = 1
+FSM_INPUTS_COAL_CHAR4 = 0
+
+Device: Tesla K40m 
+Compute units: 15 
+Work-group size: 1024 
+Local memory size (in bytes): 49152 
+Global memory size (in bytes): 11996954624 
+Global memory cache size (in bytes): 245760 
+Compute overlap: 1 
+Version: OpenCL 1.2 CUDA 
+Reading fsm: /afs/inf.ed.ac.uk/user/s08/s0835905/fsmtesting/2019journal/data/fsms-large/fsm37.fsm
+Using DMA transfer!
+Size of FSM with 126510 transitions is 527360 bytes.
+Number of test cases: 2048
+Size for reading the tests: 1046528
+SORTED test cases? YES! Ascending? 1
+chunk: 0	 num tests: 2048	 size: 1005568	 padded input size: 491
+Size of 2048 test inputs is 1005568 bytes.
+Size of 2048 test results is 1005568 bytes.
+LDIM = 256, chunks = 1
+FSM in GLOBAL memory.
+Time in ms
+trans-inputs	trans-results	exec-kernel	trans-rate-in	trans-rate-res	time-total
+0.156928	0.108064	1.191552	6.407830	9.305301	1.734931
+totals: 0.156928	0.108064	1.191552	1.456544
+0.146784	0.119040	0.558208	6.850665	8.447312	0.895507
+totals: 0.146784	0.119040	0.558208	0.824032
+0.155040	0.112064	0.556864	6.485862	8.973158	0.891177
+totals: 0.155040	0.112064	0.556864	0.823968
+0.152832	0.125344	0.557600	6.579564	8.022466	0.894599
+totals: 0.152832	0.125344	0.557600	0.835776
+0.146976	0.133568	0.559872	6.841716	7.528510	0.898091
+totals: 0.146976	0.133568	0.559872	0.840416
+0.146336	0.125504	0.557856	6.871638	8.012239	0.890478
+totals: 0.146336	0.125504	0.557856	0.829696
+0.167840	0.113152	0.564960	5.991230	8.886878	0.906402
+totals: 0.167840	0.113152	0.564960	0.845952
+0.167744	0.116192	0.559680	5.994659	8.654365	0.897672
+totals: 0.167744	0.116192	0.559680	0.843616
+0.146432	0.123488	0.558784	6.867133	8.143042	0.894390
+totals: 0.146432	0.123488	0.558784	0.828704
+0.153984	0.112544	0.558336	6.530341	8.934888	0.886078
+totals: 0.153984	0.112544	0.558336	0.824864
+0.143136	0.107264	0.557536	7.025263	9.374702	0.875951
+totals: 0.143136	0.107264	0.557536	0.807936
+Size for recording the results: 1046528

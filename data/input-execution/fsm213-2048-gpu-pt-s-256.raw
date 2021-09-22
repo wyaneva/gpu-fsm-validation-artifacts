@@ -1,0 +1,49 @@
+SANITY CHECK!
+FSM_INPUTS_WITH_OFFSETS = 0
+FSM_INPUTS_COAL_CHAR = 1
+FSM_INPUTS_COAL_CHAR4 = 0
+
+Device: Tesla K40m 
+Compute units: 15 
+Work-group size: 1024 
+Local memory size (in bytes): 49152 
+Global memory size (in bytes): 11996954624 
+Global memory cache size (in bytes): 245760 
+Compute overlap: 1 
+Version: OpenCL 1.2 CUDA 
+Reading fsm: /afs/inf.ed.ac.uk/user/s08/s0835905/fsmtesting/2019journal/data/fsms-large/fsm213.fsm
+Using DMA transfer!
+Size of FSM with 509562 transitions is 2079744 bytes.
+Number of test cases: 2048
+Size for reading the tests: 2086912
+SORTED test cases? YES! Ascending? 1
+chunk: 0	 num tests: 2048	 size: 919552	 padded input size: 449
+Size of 2048 test inputs is 919552 bytes.
+Size of 2048 test results is 919552 bytes.
+LDIM = 256, chunks = 1
+FSM in GLOBAL memory.
+Time in ms
+trans-inputs	trans-results	exec-kernel	trans-rate-in	trans-rate-res	time-total
+0.120864	0.109792	1.063040	7.608155	8.375401	1.545870
+totals: 0.120864	0.109792	1.063040	1.293696
+0.120736	0.109728	0.539488	7.616221	8.380286	0.848294
+totals: 0.120736	0.109728	0.539488	0.769952
+0.110144	0.127424	0.535680	8.348635	7.216474	0.848993
+totals: 0.110144	0.127424	0.535680	0.773248
+0.111616	0.109280	0.543168	8.238532	8.414641	0.822382
+totals: 0.111616	0.109280	0.543168	0.764064
+0.122048	0.117728	0.535552	7.534347	7.810818	0.830904
+totals: 0.122048	0.117728	0.535552	0.775328
+0.122080	0.118240	0.533440	7.532372	7.776996	0.842777
+totals: 0.122080	0.118240	0.533440	0.773760
+0.130848	0.108992	0.533344	7.027635	8.436876	0.831532
+totals: 0.130848	0.108992	0.533344	0.773184
+0.131264	0.126784	0.534048	7.005363	7.252903	0.850459
+totals: 0.131264	0.126784	0.534048	0.792096
+0.130912	0.108896	0.533856	7.024199	8.444314	0.827621
+totals: 0.130912	0.108896	0.533856	0.773664
+0.113248	0.109472	0.534016	8.119808	8.399883	0.813024
+totals: 0.113248	0.109472	0.534016	0.756736
+0.118944	0.127680	0.537600	7.730966	7.202005	0.845500
+totals: 0.118944	0.127680	0.537600	0.784224
+Size for recording the results: 2086912

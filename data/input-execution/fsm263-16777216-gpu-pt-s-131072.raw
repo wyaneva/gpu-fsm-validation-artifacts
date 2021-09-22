@@ -1,0 +1,71 @@
+SANITY CHECK!
+FSM_INPUTS_WITH_OFFSETS = 0
+FSM_INPUTS_COAL_CHAR = 1
+FSM_INPUTS_COAL_CHAR4 = 0
+
+Device: Tesla K40m 
+Compute units: 15 
+Work-group size: 1024 
+Local memory size (in bytes): 49152 
+Global memory size (in bytes): 11996954624 
+Global memory cache size (in bytes): 245760 
+Compute overlap: 1 
+Version: OpenCL 1.2 CUDA 
+Reading fsm: /afs/inf.ed.ac.uk/user/s08/s0835905/fsmtesting/2019journal/data/fsms-large/fsm263.fsm
+Using DMA transfer!
+Size of FSM with 63764 transitions is 279552 bytes.
+Number of test cases: 16777216
+SORTED test cases? YES! Ascending? 1
+chunk: 0	 num tests: 1227776	 size: 135055360	 padded input size: 110
+chunk: 1	 num tests: 781312	 size: 134385664	 padded input size: 172
+chunk: 2	 num tests: 608256	 size: 134424576	 padded input size: 221
+chunk: 3	 num tests: 513024	 size: 134412288	 padded input size: 262
+chunk: 4	 num tests: 501760	 size: 134471680	 padded input size: 268
+chunk: 5	 num tests: 1033216	 size: 135351296	 padded input size: 131
+chunk: 6	 num tests: 714752	 size: 134373376	 padded input size: 188
+chunk: 7	 num tests: 574464	 size: 134424576	 padded input size: 234
+chunk: 8	 num tests: 501760	 size: 134471680	 padded input size: 268
+chunk: 9	 num tests: 1177600	 size: 134246400	 padded input size: 114
+chunk: 10	 num tests: 766976	 size: 134220800	 padded input size: 175
+chunk: 11	 num tests: 602112	 size: 134873088	 padded input size: 224
+chunk: 12	 num tests: 508928	 size: 134356992	 padded input size: 264
+chunk: 13	 num tests: 501760	 size: 134471680	 padded input size: 268
+chunk: 14	 num tests: 1016832	 size: 134221824	 padded input size: 132
+chunk: 15	 num tests: 710656	 size: 134313984	 padded input size: 189
+chunk: 16	 num tests: 574464	 size: 134999040	 padded input size: 235
+chunk: 17	 num tests: 501760	 size: 134471680	 padded input size: 268
+chunk: 18	 num tests: 1175552	 size: 135188480	 padded input size: 115
+chunk: 19	 num tests: 762880	 size: 134266880	 padded input size: 176
+chunk: 20	 num tests: 600064	 size: 134414336	 padded input size: 224
+chunk: 21	 num tests: 508928	 size: 134356992	 padded input size: 264
+chunk: 22	 num tests: 501760	 size: 134471680	 padded input size: 268
+chunk: 23	 num tests: 410624	 size: 34081792	 padded input size: 83
+Size of 16777216 test inputs is 3128326144 bytes.
+Size of 16777216 test results is 3128326144 bytes.
+LDIM = 256, chunks = 24
+LDIM = 256, chunks = 24
+LDIM = 256, chunks = 24
+LDIM = 256, chunks = 24
+LDIM = 256, chunks = 24
+LDIM = 256, chunks = 24
+LDIM = 256, chunks = 24
+LDIM = 256, chunks = 24
+LDIM = 256, chunks = 24
+LDIM = 256, chunks = 24
+LDIM = 256, chunks = 24
+LDIM = 256, chunks = 24
+LDIM = 256, chunks = 24
+LDIM = 256, chunks = 24
+LDIM = 256, chunks = 24
+LDIM = 256, chunks = 24
+LDIM = 256, chunks = 24
+LDIM = 256, chunks = 24
+LDIM = 256, chunks = 24
+LDIM = 256, chunks = 24
+LDIM = 256, chunks = 24
+LDIM = 256, chunks = 24
+LDIM = 256, chunks = 24
+LDIM = 256, chunks = 24
+FSM in GLOBAL memory.
+Time in ms
+trans-inputs	trans-results	exec-kernel	trans-rate-in	trans-rate-res	time-total

@@ -1,0 +1,32 @@
+SANITY CHECK!
+FSM_INPUTS_WITH_OFFSETS = 0
+FSM_INPUTS_COAL_CHAR = 1
+FSM_INPUTS_COAL_CHAR4 = 0
+
+Device: CPU.
+Number of test cases 8192.
+Number of threads = 16
+Number of procs = 32
+Reading fsm: /afs/inf.ed.ac.uk/user/s08/s0835905/fsmtesting/2019journal/data/fsms-large/fsm139.fsm
+Time in ms
+1.550690 
+1.184023 
+1.158111 
+1.163768 
+1.171521 
+1.165793 
+1.172289 
+1.181717 
+1.163559 
+1.174873 
+1.164396 
+1.167889 
+1.162651 
+1.169914 
+1.170124 
+1.160486 
+1.161673 
+1.158320 
+1.166772 
+1.175850 
+1.160975 

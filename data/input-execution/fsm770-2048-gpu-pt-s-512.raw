@@ -1,0 +1,49 @@
+SANITY CHECK!
+FSM_INPUTS_WITH_OFFSETS = 0
+FSM_INPUTS_COAL_CHAR = 1
+FSM_INPUTS_COAL_CHAR4 = 0
+
+Device: Tesla K40m 
+Compute units: 15 
+Work-group size: 1024 
+Local memory size (in bytes): 49152 
+Global memory size (in bytes): 11996954624 
+Global memory cache size (in bytes): 245760 
+Compute overlap: 1 
+Version: OpenCL 1.2 CUDA 
+Reading fsm: /afs/inf.ed.ac.uk/user/s08/s0835905/fsmtesting/2019journal/data/fsms-large/fsm770.fsm
+Using DMA transfer!
+Size of FSM with 379565 transitions is 1602560 bytes.
+Number of test cases: 2048
+Size for reading the tests: 1071104
+SORTED test cases? YES! Ascending? 1
+chunk: 0	 num tests: 2048	 size: 761856	 padded input size: 372
+Size of 2048 test inputs is 761856 bytes.
+Size of 2048 test results is 761856 bytes.
+LDIM = 256, chunks = 1
+FSM in GLOBAL memory.
+Time in ms
+trans-inputs	trans-results	exec-kernel	trans-rate-in	trans-rate-res	time-total
+0.113216	0.075904	1.068096	6.729226	10.037099	1.534556
+totals: 0.113216	0.075904	1.068096	1.257216
+0.128224	0.075776	0.449600	5.941602	10.054054	0.735221
+totals: 0.128224	0.075776	0.449600	0.653600
+0.109760	0.091840	0.448864	6.941108	8.295470	0.721812
+totals: 0.109760	0.091840	0.448864	0.650464
+0.119360	0.083392	0.448928	6.382842	9.135840	0.709101
+totals: 0.119360	0.083392	0.448928	0.651680
+0.119744	0.075584	0.449920	6.362373	10.079594	0.716364
+totals: 0.119744	0.075584	0.449920	0.645248
+0.119168	0.075456	0.449312	6.393126	10.096692	0.718738
+totals: 0.119168	0.075456	0.449312	0.643936
+0.111008	0.084256	0.449600	6.863073	9.042157	0.699183
+totals: 0.111008	0.084256	0.449600	0.644864
+0.128896	0.075136	0.450752	5.910626	10.139693	0.731309
+totals: 0.128896	0.075136	0.450752	0.654784
+0.127968	0.075808	0.450528	5.953488	10.049810	0.726142
+totals: 0.127968	0.075808	0.450528	0.654304
+0.110400	0.092672	0.449088	6.900870	8.220994	0.708890
+totals: 0.110400	0.092672	0.449088	0.652160
+0.110976	0.084096	0.451936	6.865052	9.059361	0.722021
+totals: 0.110976	0.084096	0.451936	0.647008
+Size for recording the results: 1071104

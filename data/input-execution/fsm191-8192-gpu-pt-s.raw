@@ -1,0 +1,49 @@
+SANITY CHECK!
+FSM_INPUTS_WITH_OFFSETS = 0
+FSM_INPUTS_COAL_CHAR = 1
+FSM_INPUTS_COAL_CHAR4 = 0
+
+Device: Tesla K40m 
+Compute units: 15 
+Work-group size: 1024 
+Local memory size (in bytes): 49152 
+Global memory size (in bytes): 11996954624 
+Global memory cache size (in bytes): 245760 
+Compute overlap: 1 
+Version: OpenCL 1.2 CUDA 
+Reading fsm: /afs/inf.ed.ac.uk/user/s08/s0835905/fsmtesting/2019journal/data/fsms-large/fsm191.fsm
+Using DMA transfer!
+Size of FSM with 109304 transitions is 455680 bytes.
+Number of test cases: 8192
+Size for reading the tests: 3612672
+SORTED test cases? YES! Ascending? 1
+chunk: 0	 num tests: 8192	 size: 3522560	 padded input size: 430
+Size of 8192 test inputs is 3522560 bytes.
+Size of 8192 test results is 3522560 bytes.
+LDIM = 256, chunks = 1
+FSM in GLOBAL memory.
+Time in ms
+trans-inputs	trans-results	exec-kernel	trans-rate-in	trans-rate-res	time-total
+0.345888	0.335744	0.976064	10.184106	10.491803	1.887814
+totals: 0.345888	0.335744	0.976064	1.657696
+0.336512	0.335168	0.544768	10.467859	10.509834	1.275653
+totals: 0.336512	0.335168	0.544768	1.216448
+0.336032	0.335072	0.542400	10.482811	10.512845	1.259940
+totals: 0.336032	0.335072	0.542400	1.213504
+0.336128	0.335328	0.543232	10.479817	10.504819	1.261686
+totals: 0.336128	0.335328	0.543232	1.214688
+0.336224	0.335104	0.543872	10.476825	10.511841	1.260358
+totals: 0.336224	0.335104	0.543872	1.215200
+0.336096	0.335072	0.544064	10.480815	10.512845	1.261476
+totals: 0.336096	0.335072	0.544064	1.215232
+0.336096	0.335104	0.543104	10.480815	10.511841	1.265946
+totals: 0.336096	0.335104	0.543104	1.214304
+0.336064	0.335072	0.544096	10.481813	10.512845	1.258613
+totals: 0.336064	0.335072	0.544096	1.215232
+0.336064	0.335008	0.544448	10.481813	10.514853	1.265387
+totals: 0.336064	0.335008	0.544448	1.215520
+0.336032	0.335040	0.545280	10.482811	10.513849	1.268879
+totals: 0.336032	0.335040	0.545280	1.216352
+0.336064	0.335136	0.543872	10.481813	10.510837	1.264130
+totals: 0.336064	0.335136	0.543872	1.215072
+Size for recording the results: 3612672

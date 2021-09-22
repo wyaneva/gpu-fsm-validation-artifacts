@@ -1,0 +1,49 @@
+SANITY CHECK!
+FSM_INPUTS_WITH_OFFSETS = 0
+FSM_INPUTS_COAL_CHAR = 1
+FSM_INPUTS_COAL_CHAR4 = 0
+
+Device: Tesla K40m 
+Compute units: 15 
+Work-group size: 1024 
+Local memory size (in bytes): 49152 
+Global memory size (in bytes): 11996954624 
+Global memory cache size (in bytes): 245760 
+Compute overlap: 1 
+Version: OpenCL 1.2 CUDA 
+Reading fsm: /afs/inf.ed.ac.uk/user/s08/s0835905/fsmtesting/2019journal/data/fsms-large/fsm268.fsm
+Using DMA transfer!
+Size of FSM with 546994 transitions is 2221056 bytes.
+Number of test cases: 4096
+Size for reading the tests: 4440064
+SORTED test cases? YES! Ascending? 1
+chunk: 0	 num tests: 4096	 size: 1892352	 padded input size: 462
+Size of 4096 test inputs is 1892352 bytes.
+Size of 4096 test results is 1892352 bytes.
+LDIM = 256, chunks = 1
+FSM in GLOBAL memory.
+Time in ms
+trans-inputs	trans-results	exec-kernel	trans-rate-in	trans-rate-res	time-total
+0.264672	0.346368	1.252384	7.149801	5.463415	2.163128
+totals: 0.264672	0.346368	1.252384	1.863424
+0.300608	0.406656	0.602784	6.295082	4.653447	1.377622
+totals: 0.300608	0.406656	0.602784	1.310048
+0.299168	0.366624	0.602528	6.325382	5.161561	1.340745
+totals: 0.299168	0.366624	0.602528	1.268320
+0.285984	0.368960	0.601376	6.616986	5.128881	1.323425
+totals: 0.285984	0.368960	0.601376	1.256320
+0.281376	0.355200	0.601472	6.725350	5.327568	1.307780
+totals: 0.281376	0.355200	0.601472	1.238048
+0.304544	0.377056	0.601024	6.213723	5.018756	1.348917
+totals: 0.304544	0.377056	0.601024	1.282624
+0.293408	0.344736	0.601952	6.449558	5.489279	1.315183
+totals: 0.293408	0.344736	0.601952	1.240096
+0.305280	0.365376	0.601344	6.198742	5.179191	1.332225
+totals: 0.305280	0.365376	0.601344	1.272000
+0.276864	0.347168	0.603136	6.834951	5.450825	1.290459
+totals: 0.276864	0.347168	0.603136	1.227168
+0.301216	0.356704	0.601504	6.282375	5.305105	1.334460
+totals: 0.301216	0.356704	0.601504	1.259424
+0.275040	0.359136	0.601248	6.880279	5.269179	1.305685
+totals: 0.275040	0.359136	0.601248	1.235424
+Size for recording the results: 4440064

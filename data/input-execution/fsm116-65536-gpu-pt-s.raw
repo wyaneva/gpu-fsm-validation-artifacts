@@ -1,0 +1,47 @@
+SANITY CHECK!
+FSM_INPUTS_WITH_OFFSETS = 0
+FSM_INPUTS_COAL_CHAR = 1
+FSM_INPUTS_COAL_CHAR4 = 0
+
+Device: Tesla K40m 
+Compute units: 15 
+Work-group size: 1024 
+Local memory size (in bytes): 49152 
+Global memory size (in bytes): 11996954624 
+Global memory cache size (in bytes): 245760 
+Compute overlap: 1 
+Version: OpenCL 1.2 CUDA 
+Reading fsm: /afs/inf.ed.ac.uk/user/s08/s0835905/fsmtesting/2019journal/data/fsms-large/fsm116.fsm
+Using DMA transfer!
+Size of FSM with 64524 transitions is 275456 bytes.
+Number of test cases: 65536
+SORTED test cases? YES! Ascending? 1
+chunk: 0	 num tests: 65536	 size: 17104896	 padded input size: 261
+Size of 65536 test inputs is 17104896 bytes.
+Size of 65536 test results is 17104896 bytes.
+LDIM = 256, chunks = 1
+FSM in GLOBAL memory.
+Time in ms
+trans-inputs	trans-results	exec-kernel	time-total
+2.077230	1.622784	1.070944	5.141031
+totals: 2.077230	1.622784	1.070944	4.770958
+1.861920	1.627360	0.538880	4.354336
+totals: 1.861920	1.627360	0.538880	4.028160
+1.857253	1.627392	0.539008	4.307123
+totals: 1.857253	1.627392	0.539008	4.023653
+1.847882	1.627488	0.538112	4.340717
+totals: 1.847882	1.627488	0.538112	4.013482
+1.845048	1.626912	0.539968	4.336247
+totals: 1.845048	1.626912	0.539968	4.011928
+1.859075	1.622816	0.540608	4.316412
+totals: 1.859075	1.622816	0.540608	4.022499
+1.835925	1.622720	0.540640	4.336596
+totals: 1.835925	1.622720	0.540640	3.999285
+1.841897	1.622272	0.540256	4.330171
+totals: 1.841897	1.622272	0.540256	4.004425
+1.843465	1.622848	0.539456	4.307822
+totals: 1.843465	1.622848	0.539456	4.005769
+1.834882	1.623136	0.542592	4.312361
+totals: 1.834882	1.623136	0.542592	4.000610
+1.855527	1.622304	0.541920	4.308730
+totals: 1.855527	1.622304	0.541920	4.019751

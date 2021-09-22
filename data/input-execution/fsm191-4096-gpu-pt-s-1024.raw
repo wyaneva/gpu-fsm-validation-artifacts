@@ -1,0 +1,49 @@
+SANITY CHECK!
+FSM_INPUTS_WITH_OFFSETS = 0
+FSM_INPUTS_COAL_CHAR = 1
+FSM_INPUTS_COAL_CHAR4 = 0
+
+Device: Tesla K40m 
+Compute units: 15 
+Work-group size: 1024 
+Local memory size (in bytes): 49152 
+Global memory size (in bytes): 11996954624 
+Global memory cache size (in bytes): 245760 
+Compute overlap: 1 
+Version: OpenCL 1.2 CUDA 
+Reading fsm: /afs/inf.ed.ac.uk/user/s08/s0835905/fsmtesting/2019journal/data/fsms-large/fsm191.fsm
+Using DMA transfer!
+Size of FSM with 109304 transitions is 455680 bytes.
+Number of test cases: 4096
+Size for reading the tests: 1806336
+SORTED test cases? YES! Ascending? 1
+chunk: 0	 num tests: 4096	 size: 1769472	 padded input size: 432
+Size of 4096 test inputs is 1769472 bytes.
+Size of 4096 test results is 1769472 bytes.
+LDIM = 256, chunks = 1
+FSM in GLOBAL memory.
+Time in ms
+trans-inputs	trans-results	exec-kernel	trans-rate-in	trans-rate-res	time-total
+0.224992	0.206272	1.107840	7.864600	8.578343	1.811338
+totals: 0.224992	0.206272	1.107840	1.539104
+0.241696	0.222272	0.542976	7.321064	7.960841	1.066478
+totals: 0.241696	0.222272	0.542976	1.006944
+0.213600	0.214272	0.540928	8.284045	8.258065	1.021710
+totals: 0.213600	0.214272	0.540928	0.968800
+0.232704	0.213568	0.540768	7.603960	8.285286	1.041755
+totals: 0.232704	0.213568	0.540768	0.987040
+0.241152	0.216384	0.542592	7.337580	8.177462	1.057190
+totals: 0.241152	0.216384	0.542592	1.000128
+0.222112	0.215168	0.541536	7.966575	8.223676	1.031349
+totals: 0.222112	0.215168	0.541536	0.978816
+0.222880	0.215904	0.541760	7.939124	8.195643	1.032326
+totals: 0.222880	0.215904	0.541760	0.980544
+0.222560	0.228256	0.541696	7.950539	7.752138	1.052650
+totals: 0.222560	0.228256	0.541696	0.992512
+0.224512	0.235104	0.543488	7.881414	7.526337	1.052021
+totals: 0.224512	0.235104	0.543488	1.003104
+0.242464	0.223968	0.542624	7.297875	7.900557	1.069691
+totals: 0.242464	0.223968	0.542624	1.009056
+0.237184	0.238368	0.542304	7.460335	7.423278	1.071787
+totals: 0.237184	0.238368	0.542304	1.017856
+Size for recording the results: 1806336

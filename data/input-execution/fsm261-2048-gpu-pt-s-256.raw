@@ -1,0 +1,49 @@
+SANITY CHECK!
+FSM_INPUTS_WITH_OFFSETS = 0
+FSM_INPUTS_COAL_CHAR = 1
+FSM_INPUTS_COAL_CHAR4 = 0
+
+Device: Tesla K40m 
+Compute units: 15 
+Work-group size: 1024 
+Local memory size (in bytes): 49152 
+Global memory size (in bytes): 11996954624 
+Global memory cache size (in bytes): 245760 
+Compute overlap: 1 
+Version: OpenCL 1.2 CUDA 
+Reading fsm: /afs/inf.ed.ac.uk/user/s08/s0835905/fsmtesting/2019journal/data/fsms-large/fsm261.fsm
+Using DMA transfer!
+Size of FSM with 129578 transitions is 561152 bytes.
+Number of test cases: 2048
+Size for reading the tests: 581632
+SORTED test cases? YES! Ascending? 1
+chunk: 0	 num tests: 2048	 size: 559104	 padded input size: 273
+Size of 2048 test inputs is 559104 bytes.
+Size of 2048 test results is 559104 bytes.
+LDIM = 256, chunks = 1
+FSM in GLOBAL memory.
+Time in ms
+trans-inputs	trans-results	exec-kernel	trans-rate-in	trans-rate-res	time-total
+0.085184	0.059936	0.964352	6.563486	9.328350	1.389076
+totals: 0.085184	0.059936	0.964352	1.109472
+0.094016	0.060032	0.299904	5.946903	9.313433	0.526605
+totals: 0.094016	0.060032	0.299904	0.453952
+0.092320	0.068672	0.299136	6.056153	8.141659	0.521715
+totals: 0.092320	0.068672	0.299136	0.460128
+0.082752	0.059680	0.298272	6.756381	9.368365	0.504395
+totals: 0.082752	0.059680	0.298272	0.440704
+0.083936	0.059712	0.299360	6.661075	9.363344	0.501602
+totals: 0.083936	0.059712	0.299360	0.443008
+0.084160	0.059392	0.298976	6.643346	9.413793	0.496642
+totals: 0.084160	0.059392	0.298976	0.442528
+0.083392	0.060096	0.298720	6.704528	9.303514	0.503766
+totals: 0.083392	0.060096	0.298720	0.442208
+0.083552	0.059904	0.298176	6.691689	9.333333	0.501042
+totals: 0.083552	0.059904	0.298176	0.441632
+0.082944	0.060000	0.299040	6.740741	9.318400	0.503348
+totals: 0.082944	0.060000	0.299040	0.441984
+0.083904	0.059680	0.298688	6.663616	9.368365	0.504883
+totals: 0.083904	0.059680	0.298688	0.442272
+0.083392	0.060096	0.306112	6.704528	9.303514	0.512147
+totals: 0.083392	0.060096	0.306112	0.449600
+Size for recording the results: 581632

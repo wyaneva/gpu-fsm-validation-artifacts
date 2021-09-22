@@ -1,0 +1,49 @@
+SANITY CHECK!
+FSM_INPUTS_WITH_OFFSETS = 0
+FSM_INPUTS_COAL_CHAR = 1
+FSM_INPUTS_COAL_CHAR4 = 0
+
+Device: Tesla K40m 
+Compute units: 15 
+Work-group size: 1024 
+Local memory size (in bytes): 49152 
+Global memory size (in bytes): 11996954624 
+Global memory cache size (in bytes): 245760 
+Compute overlap: 1 
+Version: OpenCL 1.2 CUDA 
+Reading fsm: /afs/inf.ed.ac.uk/user/s08/s0835905/fsmtesting/2019journal/data/fsms-large/fsm770.fsm
+Using DMA transfer!
+Size of FSM with 379565 transitions is 1602560 bytes.
+Number of test cases: 2048
+Size for reading the tests: 1071104
+SORTED test cases? YES! Ascending? 1
+chunk: 0	 num tests: 2048	 size: 761856	 padded input size: 372
+Size of 2048 test inputs is 761856 bytes.
+Size of 2048 test results is 761856 bytes.
+LDIM = 256, chunks = 1
+FSM in GLOBAL memory.
+Time in ms
+trans-inputs	trans-results	exec-kernel	trans-rate-in	trans-rate-res	time-total
+0.089664	0.074272	0.992128	8.496788	10.257648	1.382022
+totals: 0.089664	0.074272	0.992128	1.156064
+0.090080	0.074208	0.450304	8.457549	10.266494	0.677392
+totals: 0.090080	0.074208	0.450304	0.614592
+0.089568	0.074080	0.451776	8.505895	10.284233	0.673551
+totals: 0.089568	0.074080	0.451776	0.615424
+0.089312	0.090656	0.450912	8.530276	8.403812	0.688916
+totals: 0.089312	0.090656	0.450912	0.630880
+0.089824	0.082272	0.450464	8.481653	9.260210	0.673830
+totals: 0.089824	0.082272	0.450464	0.622560
+0.089312	0.074208	0.450144	8.530276	10.266494	0.671735
+totals: 0.089312	0.074208	0.450144	0.613664
+0.099136	0.074272	0.450816	7.684958	10.257648	0.681443
+totals: 0.099136	0.074272	0.450816	0.624224
+0.095328	0.074080	0.451104	7.991944	10.284233	0.673691
+totals: 0.095328	0.074080	0.451104	0.620512
+0.089824	0.074272	0.450496	8.481653	10.257648	0.668103
+totals: 0.089824	0.074272	0.450496	0.614592
+0.090432	0.090656	0.452512	8.424628	8.403812	0.690382
+totals: 0.090432	0.090656	0.452512	0.633600
+0.090208	0.074048	0.459968	8.445548	10.288678	0.678300
+totals: 0.090208	0.074048	0.459968	0.624224
+Size for recording the results: 1071104

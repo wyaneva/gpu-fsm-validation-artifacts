@@ -1,0 +1,49 @@
+SANITY CHECK!
+FSM_INPUTS_WITH_OFFSETS = 0
+FSM_INPUTS_COAL_CHAR = 1
+FSM_INPUTS_COAL_CHAR4 = 0
+
+Device: Tesla K40m 
+Compute units: 15 
+Work-group size: 1024 
+Local memory size (in bytes): 49152 
+Global memory size (in bytes): 11996954624 
+Global memory cache size (in bytes): 245760 
+Compute overlap: 1 
+Version: OpenCL 1.2 CUDA 
+Reading fsm: /afs/inf.ed.ac.uk/user/s08/s0835905/fsmtesting/2019journal/data/fsms-large/fsm187.fsm
+Using DMA transfer!
+Size of FSM with 109305 transitions is 456704 bytes.
+Number of test cases: 2048
+Size for reading the tests: 905216
+SORTED test cases? YES! Ascending? 1
+chunk: 0	 num tests: 2048	 size: 868352	 padded input size: 424
+Size of 2048 test inputs is 868352 bytes.
+Size of 2048 test results is 868352 bytes.
+LDIM = 256, chunks = 1
+FSM in GLOBAL memory.
+Time in ms
+trans-inputs	trans-results	exec-kernel	trans-rate-in	trans-rate-res	time-total
+0.085824	0.083968	1.001984	10.117823	10.341463	1.395431
+totals: 0.085824	0.083968	1.001984	1.171776
+0.085088	0.083936	0.478176	10.205340	10.345406	0.700300
+totals: 0.085088	0.083936	0.478176	0.647200
+0.084672	0.083936	0.479648	10.255480	10.345406	0.694014
+totals: 0.084672	0.083936	0.479648	0.648256
+0.084384	0.083936	0.479200	10.290482	10.345406	0.697996
+totals: 0.084384	0.083936	0.479200	0.647520
+0.084384	0.083936	0.477440	10.290482	10.345406	0.692408
+totals: 0.084384	0.083936	0.477440	0.645760
+0.084384	0.083936	0.479008	10.290482	10.345406	0.692757
+totals: 0.084384	0.083936	0.479008	0.647328
+0.084384	0.083904	0.479200	10.290482	10.349352	0.697716
+totals: 0.084384	0.083904	0.479200	0.647488
+0.084384	0.083936	0.478208	10.290482	10.345406	0.696877
+totals: 0.084384	0.083936	0.478208	0.646528
+0.084384	0.083904	0.478080	10.290482	10.349352	0.700719
+totals: 0.084384	0.083904	0.478080	0.646368
+0.084384	0.083936	0.478272	10.290482	10.345406	0.697646
+totals: 0.084384	0.083936	0.478272	0.646592
+0.084448	0.083904	0.478112	10.282683	10.349352	0.690033
+totals: 0.084448	0.083904	0.478112	0.646464
+Size for recording the results: 905216

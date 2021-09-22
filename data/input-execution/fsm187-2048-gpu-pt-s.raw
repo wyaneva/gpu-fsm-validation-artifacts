@@ -1,0 +1,49 @@
+SANITY CHECK!
+FSM_INPUTS_WITH_OFFSETS = 0
+FSM_INPUTS_COAL_CHAR = 1
+FSM_INPUTS_COAL_CHAR4 = 0
+
+Device: Tesla K40m 
+Compute units: 15 
+Work-group size: 1024 
+Local memory size (in bytes): 49152 
+Global memory size (in bytes): 11996954624 
+Global memory cache size (in bytes): 245760 
+Compute overlap: 1 
+Version: OpenCL 1.2 CUDA 
+Reading fsm: /afs/inf.ed.ac.uk/user/s08/s0835905/fsmtesting/2019journal/data/fsms-large/fsm187.fsm
+Using DMA transfer!
+Size of FSM with 109305 transitions is 456704 bytes.
+Number of test cases: 2048
+Size for reading the tests: 905216
+SORTED test cases? YES! Ascending? 1
+chunk: 0	 num tests: 2048	 size: 868352	 padded input size: 424
+Size of 2048 test inputs is 868352 bytes.
+Size of 2048 test results is 868352 bytes.
+LDIM = 256, chunks = 1
+FSM in GLOBAL memory.
+Time in ms
+trans-inputs	trans-results	exec-kernel	trans-rate-in	trans-rate-res	time-total
+0.129792	0.084608	1.067872	6.690335	10.263238	1.570525
+totals: 0.129792	0.084608	1.067872	1.282272
+0.136448	0.084640	0.478528	6.363977	10.259357	0.760922
+totals: 0.136448	0.084640	0.478528	0.699616
+0.127552	0.084448	0.478336	6.807827	10.282683	0.754986
+totals: 0.127552	0.084448	0.478336	0.690336
+0.139168	0.084352	0.488992	6.239595	10.294385	0.769303
+totals: 0.139168	0.084352	0.488992	0.712512
+0.137696	0.084672	0.478816	6.306298	10.255480	0.766160
+totals: 0.137696	0.084672	0.478816	0.701184
+0.138336	0.084320	0.478912	6.277122	10.298292	0.757989
+totals: 0.138336	0.084320	0.478912	0.701568
+0.127008	0.101824	0.478304	6.836987	8.527970	0.766510
+totals: 0.127008	0.101824	0.478304	0.707136
+0.125024	0.100672	0.479104	6.945482	8.625556	0.766719
+totals: 0.125024	0.100672	0.479104	0.704800
+0.148320	0.084288	0.478176	5.854585	10.302202	0.767906
+totals: 0.148320	0.084288	0.478176	0.710784
+0.138336	0.093088	0.480192	6.277122	9.328292	0.768186
+totals: 0.138336	0.093088	0.480192	0.711616
+0.139552	0.084736	0.478240	6.222426	10.247734	0.787043
+totals: 0.139552	0.084736	0.478240	0.702528
+Size for recording the results: 905216
