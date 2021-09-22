@@ -14,5 +14,6 @@ This repository contains artifacts for our research on using GPUs to accelerate 
 
        a program to remove redundant inputs with respect to all-transition pair coverage
 
-### Publications:
-* Yaneva V., Kapoor A., Rajan A., Dubach C., **Accelerated Finite State Machine Test Execution Using GPUs.** In *Proceedings of APSEC 2018*.
+* `data` - contains fsm input size and execution data
+
+* `scripts` - contains the R scripts used for the plot generation
